@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open('random_forest_model.pkl', 'rb') as file:
+with open('rf.pkl', 'rb') as file:
     rf = pickle.load(file)
 
 st.title("Customer Churn Prediction App")
